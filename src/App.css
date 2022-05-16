@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-section {
+  width: max-content;
+  margin: 20px auto;
+  padding: 20px 50px;
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.input-group label {
+  font-size: larger;
+}
+
+.input-group label {
+  font-size: larger;
+}
+
+.input-group input,
+textarea {
+  all: unset;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  font-size: larger;
+  width: 300px;
+}
+
+.input-group input:focus {
+  border-color: gray;
+}
+
+.login-form .or {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.login-form .or span {
+  margin: 0 5px;
+}
+
+.login-form .or hr {
+  width: 140px;
+  height: 0;
+}
+
+.login-form button {
+  margin-top: 20px;
+  width: 310px;
+  padding: 5px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.google-btn svg {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-section {
+  width: 80%;
+  margin-left: auto;
+}
+
+.user-section button {
+  margin-top: 20px;
+  width: 310px;
+  padding: 5px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.show-hide-gmail {
+  color: rgb(70, 0, 235);
+  cursor: pointer;
+  user-select: none;
 }
